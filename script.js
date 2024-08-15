@@ -2,13 +2,13 @@
 console.log("Script Carregado")
 
 //item 2 
-function CalcularAnos () {
+function CalcularAnos() {
     console.log("botao de calcular clicado")
-    let popAInput=document.getElementById(popA).value.trim()
-    let taxaAInput=document.getElementById(taxaA).value.trim()
-    let popBInput=document.getElementById(popB).value.trim()
-    let taxaBInput=document.getElementById(taxaB).value.trim()
-    if(popAInput ==="" || taxaAInput ==="" || popBInput ==="" || taxaBInput ==="" ){
-        alert()
-    }
+    let popAInput = document.getElementById(popA).value.trim()
+    let taxaAInput = document.getElementById(taxaA).value.trim()
+    let popBInput = document.getElementById(popB).value.trim()
+    let taxaBInput = document.getElementById(taxaB).value.trim()
+    if (popAInput === "" || taxaAInput === "" || popBInput === "" || taxaBInput === "")
+        alert("Por favor,preencja todos os campos")
+    return;
 }
